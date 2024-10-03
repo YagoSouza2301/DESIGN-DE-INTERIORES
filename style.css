@@ -38,6 +38,10 @@ header ul li {
 header ul li a {
     color: aliceblue;
     font-size: 22px;
+    transition: 0.6s;
+}
+header ul li a:hover {
+    color: rgb(255, 171, 93);
 }
 header p a {
     color: aliceblue;
@@ -45,13 +49,17 @@ header p a {
     padding: 5px;
     border-radius: 10px;
     font-size: 22px;
+    transition: 0.6s;
+}
+header p a:hover {
+    color: black;
 }
 
 
 /* =====================================SESSÃO1===================================== */
 .sessao-01 {
     width: 100%;
-    padding: 100px;
+    padding: 150px;
     padding: 100px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.527) 100%, rgba(0, 0, 0, 0.288) 8.33%), url(imagem/casa.jpg);
     background-position: center;
@@ -72,13 +80,13 @@ header p a {
     color: rgb(255, 255, 255);
 }
 .sessao-01 button {
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 45px;
     margin: 1rem 0;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.678);
     color: aliceblue;
-    font-size: 15px;
+    font-size: 17px;
     cursor: pointer;
     transition: 0.8s;
 }
@@ -86,7 +94,7 @@ header p a {
     transition: 0.8s;
     background-color: black;
     border-color: rgb(177, 177, 177);
-    font-size: 16px;
+    font-size: 18px;
 }
 .sessao-01 ul {
     display: flex;
