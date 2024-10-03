@@ -55,6 +55,16 @@ header p a:hover {
     color: black;
 }
 
+.whatsapp {
+    position: relative; /*permite que elementos posicionados dentro da classe sejam posicionados em relação a ela*/
+}
+.whatsapp img {
+    position: fixed; /*mantem a imagem em uma posição fixa na tela, mesmo ao rolar a página*/
+    bottom: 20px; /*define a distância da imagem em relação a parte inferior da tela*/
+    right: 20px; /*define a distância da imagem em relação a direita da tela*/
+    width: 5rem; /*define a largura da imagem como 5 unidades de rem (relativas ao tamanho da fonte)*/
+    height: auto; /*ajusta a altura da imagem automaticamente para manter a proporção*/
+}
 
 /* =====================================SESSÃO1===================================== */
 .sessao-01 {
