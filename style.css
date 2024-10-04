@@ -338,4 +338,8 @@ div i {
     align-items: center;
     padding: 1rem;
   }
+
+  .whatsapp img {
+    width: 3.5rem;
+  }
 }
