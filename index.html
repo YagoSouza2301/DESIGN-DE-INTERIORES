@@ -1,111 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagem/casa-limpa.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/b61a4ed80b.js" crossorigin="anonymous"></script>
-    <title>Estilo & Conforto</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="imagem/casa-limpa.png"
+            type="image/x-icon">
+        <script src="https://kit.fontawesome.com/b61a4ed80b.js"
+            crossorigin="anonymous"></script>
+        <title>Estilo & Conforto</title>
+    </head>
 
-<body>
-    <header>
+    <body>
+        <header>
 
-        <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-house"></i>
 
-        <ul>
-            <li><a href>Sobre</a></li>
-            <li><a href>Serviços</a></li>
-            <li><a href>Como funciona</a></li>
-            <li><a href>Fornecedores</a></li>
-        </ul>
+            <nav>
+                <ul>
+                    <li><a href>Sobre</a></li>
+                    <li><a href>Serviços</a></li>
+                    <li><a href>Como funciona</a></li>
+                    <li><a href>Fornecedores</a></li>
+                </ul>
 
-        <p><a href>Solicitar Orçamento</a></p>
 
-        <a href="https://www.instagram.com/">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
 
-    </header>
 
-    <div class="whatsapp">
-        <a href="https://web.whatsapp.com/" target="_blank">
-            <img src="whatsapp.png" alt="whatsapp">
-        </a>
-    </div>
 
-    <main>
 
-        <section class="sessao-01">
-            <h2>DESIGN DE INTERIORES</h2>
-            <p>Cuide do que é importante para você <br> enquanto cuidamos de
-                todos os detalhes do seu projeto.</p>
-            <button type="button">Solicitar Orçamento</button>
+                <!-- CAIXA MOBILE -->
+                <div class="mobile-menu" id="mobileMenu">
 
-            <ul>
-                <li>+65 MIL <br>
-                    M² Projetados</li>
-                <li>+90 <br>
-                    Obras entregues</li>
-                <li>+12 MIL <br>
-                    M² Reformados</li>
-            </ul>
-        </section>
+                    <!-- Botão para ser utilizado para fechamento da lista -->
+                    <button id="closeButton" class="close">
+                        <i class="fas fa-times"></i>
+                    </button>
+          
+                    <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
+                    <ul class="nav-links-mobile">
+                        <li>
+                            <a href="">TESTE</a>
+                        </li>
+                        <li>
+                            <a href="">TESTE</a>
+                        </li>
+                        <li>
+                            <a href="">TESTE</a>
+                        </li>
+                    </ul>
+          
+          
+                    <div id="btn-mobile" class="cad-mobile">
+                      <button>
+                        <a href="form.html" target="_blank">
+                
+                          <!-- <img src="img/user.png" alt=""> -->
+                
+                          <p>Cadastre-se</p>
+                        </a>
+                      </button>
+                    </div>
+                    <!-- Fim da caixa do Menu Hamburguer (Quando estiver aberto) -->
+                </div>
+          
+                <!-- Botão de Hamburguer, ele está fora da Div justamente por ser um elemento singular -->
+              <button class="hamburger" id="hamburgerButton">
+                  <i class="fas fa-bars"></i>
+              </button>
+          
+              <!-- Fim do Menu de Navegação -->
 
-        <section class="sessao-02">
-            <div class="imagem1"></div>
-            <div class="imagem2"></div>
+
+
+
+
+
+
+
+            </nav>
+
+            <p><a href>Solicitar Orçamento</a></p>
+
+            <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </header>
+
+        <div class="whatsapp">
+            <a href="https://web.whatsapp.com/" target="_blank">
+                <img src="whatsapp.png" alt="whatsapp">
+            </a>
+        </div>
+
+        <main>
+
+            <section class="sessao-01">
+                <h2>DESIGN DE INTERIORES</h2>
+                <p>Cuide do que é importante para você <br> enquanto cuidamos de
+                    todos os detalhes do seu projeto.</p>
+                <button type="button">Solicitar Orçamento</button>
+
+                <ul>
+                    <li>+65 MIL <br>
+                        M² Projetados</li>
+                    <li>+90 <br>
+                        Obras entregues</li>
+                    <li>+12 MIL <br>
+                        M² Reformados</li>
+                </ul>
+            </section>
+
+            <section class="sessao-02">
+                <div class="imagem1"></div>
+                <div class="imagem2"></div>
+                <div>
+                    <h3>Criação do Design de Interiores</h3>
+                    <hr>
+                    <br><br>
+                    <p>Na Estilo & Conforto, nossa missão é transformar espaços
+                        em
+                        refúgios personalizados, unindo funcionalidade e
+                        estética de
+                        maneira harmoniosa, criando ambientes que refletem a
+                        identidade de cada cliente enquanto proporcionam
+                        conforto e
+                        inspiração.</p>
+                </div>
+            </section>
+
+            <section class="sessao-03">
+                <h3>Tipos de Interiores</h3>
+                <div class="div-pai">
+                    <div class="interior1"></div>
+                    <div class="interior2"></div>
+                    <div class="interior3"></div>
+                    <div class="interior4"></div>
+                    <div class="interior5"></div>
+                </div>
+
+            </section>
+
+            <section class="sessa-04">
+
+            </section>
+
+        </main>
+
+        <footer>
+            <i class="fa-solid fa-house"></i>
+
+            <div class="endereço">
+                <h5>Endereço</h5>
+                <ul>
+                    <li>Rua das Estrelas Brilhantes, 42</li>
+                    <li>07:00 até 20:00</li>
+                    <li>Segunda à Sabádo</li>
+                </ul>
+            </div>
+
             <div>
-                <h3>Criação do Design de Interiores</h3>
-                <hr>
-                <br><br>
-                <p>Na Estilo & Conforto, nossa missão é transformar espaços em
-                    refúgios personalizados, unindo funcionalidade e estética de
-                    maneira harmoniosa, criando ambientes que refletem a
-                    identidade de cada cliente enquanto proporcionam conforto e
-                    inspiração.</p>
-            </div>
-        </section>
-
-        <section class="sessao-03">
-            <h3>Tipos de Interiores</h3>
-            <div class="div-pai">
-                <div class="interior1"></div>
-                <div class="interior2"></div>
-                <div class="interior3"></div>
-                <div class="interior4"></div>
-                <div class="interior5"></div>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
             </div>
 
-        </section>
-
-        <section class="sessa-04">
-
-        </section>
-
-    </main>
-
-    <footer>
-        <i class="fa-solid fa-house"></i>
-
-        <div class="endereço">
-            <h5>Endereço</h5>
-            <ul>
-                <li>Rua das Estrelas Brilhantes, 42</li>
-                <li>07:00 até 20:00</li>
-                <li>Segunda à Sabádo</li>
-            </ul>
-        </div>
-
-        <div>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-        </div>
-
-    </footer>
-</body>
+        </footer>
+    </body>
 
 </html>
