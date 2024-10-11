@@ -352,7 +352,12 @@ div i {
 
 
 
-@media (max-width: 830px) {
+@media (max-width: 834px) {
+
+    header p a {
+       font-size: 1rem;
+       display: flex;
+    }
 
   .sessao-01 {
     display: flex;
@@ -407,4 +412,42 @@ div i {
   .whatsapp img {
     width: 3.5rem;
   }
+
+
+
+
+
+  .nav-links {
+    display: none;
+}
+
+  .hamburger {
+    display: block;
+    
+}
+
+.mobile-menu {
+    z-index: 999;
+}
+
+#btn-header {
+   display: none;
+}
+
+
+.cad-mobile button {
+    width: 14rem;
+    height: 4rem;
+    border-radius: 5px;
+    background-color: #f8f4f46c;
+    color: #000000;
+}
+
+
+
+.cad-mobile button a {
+    text-decoration: none;
+    color: white;
+
+}
 }
