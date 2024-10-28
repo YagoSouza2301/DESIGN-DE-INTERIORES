@@ -135,7 +135,6 @@ header p a:hover {
 /* =====================================SESSÃO1===================================== */
 .sessao-01 {
     width: 100%;
-    padding: 150px;
     padding: 100px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.527) 100%, rgba(0, 0, 0, 0.288) 8.33%), url(imagem/casa.jpg);
     background-position: center;
@@ -362,6 +361,9 @@ div i {
        font-size: 1rem;
        display: flex;
     }
+    .nav-links-mobile {
+        text-align: center;
+    }
 
   .sessao-01 {
     display: flex;
@@ -370,8 +372,11 @@ div i {
     align-items: center;
     padding: 9rem;
   }
+  .sessao-01 p {
+    font-size: 30px;
+  }
   .sessao-01 li {
-    margin: 0px -22px;
+    margin: 0px -28px;
   }
   .sessao-01 button {
     width: 300px;
